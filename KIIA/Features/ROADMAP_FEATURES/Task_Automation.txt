@@ -1,0 +1,394 @@
+# 🧠 Python Task Automation (User-Level)
+
+## 🟢 OPEN APPS (User-Controlled)
+
+### 1️⃣ Launch applications
+
+* Open `.exe` by absolute path:
+
+------------------------------------------------------------------------------------------------------------
+
+## 1️⃣ Core launch operations
+
+### ▶️ Start the executable
+
+* Launch the app normally
+* Launch non-blocking (script continues)
+* Launch blocking (wait until app exits)
+
+**Functions**
+
+* `subprocess.Popen()`
+* `subprocess.run()`
+
+---
+
+## 2️⃣ Pass arguments at launch
+
+* Open app with file(s)
+* Open with flags (silent, safe mode, config)
+* Open with multiple arguments
+
+**Functions**
+
+* `subprocess.Popen([exe, arg1, arg2])`
+
+---
+
+## 3️⃣ Control execution flow
+
+* Wait for app to finish
+* Get exit code
+* Kill if it hangs
+
+**Functions**
+
+* `.wait()`
+* `.poll()`
+* `.terminate()`
+* `.kill()`
+
+---
+
+## 4️⃣ Window & visibility control (Windows)
+
+### 🪟 Control how the window opens
+
+* Normal window
+* Hidden window
+* Minimized
+* Maximized
+
+**Mechanisms**
+
+* `startupinfo`
+* `creationflags`
+
+---
+
+## 5️⃣ Background vs foreground execution
+
+* Fire-and-forget (background)
+* Parent-child linked execution
+* Detach from parent process
+
+**Functions / Flags**
+
+* `subprocess.Popen()`
+* `start_new_session=True`
+
+---
+
+## 6️⃣ Working directory control
+
+* Set app startup directory
+* Load configs relative to folder
+* Control where logs/files are written
+
+**Function**
+
+* `cwd="C:\\AppFolder"`
+
+---
+
+## 7️⃣ Environment control
+
+* Inherit current environment
+* Override variables
+* Inject custom variables
+
+**Function**
+
+* `env={}`
+
+---
+
+## 8️⃣ Permission & context control
+
+* Run as current user
+* Detect admin requirement
+* Fail gracefully if denied
+
+**Techniques**
+
+* Exception handling
+* Return-code checks
+
+---
+
+## 9️⃣ Input / output redirection
+
+* Capture stdout
+* Capture stderr
+* Suppress console window
+* Log output to file
+
+**Functions**
+
+* `stdout=subprocess.PIPE`
+* `stderr=subprocess.PIPE`
+* `DEVNULL`
+
+---
+
+## 🔟 Error handling & validation
+
+* Check file exists
+* Check executable permissions
+* Handle missing path
+* Handle crash on launch
+
+**Functions**
+
+* `os.path.exists()`
+* `try/except`
+
+---
+
+## 1️⃣1️⃣ Process tracking
+
+* Get PID
+* Check if still running
+* Monitor resource usage
+* Detect crash
+
+**Libraries**
+
+* `psutil`
+
+---
+
+## 1️⃣2️⃣ Relaunch & restart logic
+
+* Restart if crashed
+* Relaunch with delay
+* Relaunch with different args
+
+---
+
+## 1️⃣3️⃣ Time-based control
+
+* Delay start
+* Start at specific time
+* Start repeatedly
+
+**Modules**
+
+* `time`
+* `sched`
+* background threads
+
+---
+
+## 1️⃣4️⃣ Integration with GUI
+
+* Launch on button click
+* Disable button while running
+* Show status in GUI
+
+**Frameworks**
+
+* Tkinter
+* PyQt
+* CustomTkinter
+
+---
+
+## 1️⃣5️⃣ Logging & auditing
+
+* Log launch time
+* Log arguments
+* Log exit status
+* Log failures
+
+---
+
+## 📦 Summary table
+
+| Category          | Operations                   |
+| ----------------- | ---------------------------- |
+| Launch & args     | Start, wait, exit            |
+| Window control    | Hidden, minimized, maximized |
+| Execution control | Background, detach           |
+| Context           | Working dir, env             |
+| Monitoring        | PID, running state           |
+| Safety            | Validation, error handling   |
+| Automation        | Scheduling, restart          |
+| UI                | GUI integration              |
+
+
+## 🔢 Total capability count
+
+For **one operation** (“open exe by absolute path”), you get **30+ distinct control points**.
+----------------------------------------------------------------------------------------------------------
+
+* Open `.exe` by relative path
+* Open apps with arguments
+* Open apps hidden
+* Open apps minimized
+* Open apps maximized
+* Open apps in background
+* Open apps with working directory set
+
+--------------------------------------------------------------------------------------------------------------------------
+
+### 2️⃣ Launch files with apps
+
+* Open file with default app
+* Open file with chosen app
+* Open multiple files at once
+* Open temp files dynamically
+
+Open file with default application
+
+    Using os.startfile(file_path) to open files with the app Windows associates by default.
+
+Open temp files dynamically
+
+    Generate temporary files at runtime and open them automatically.
+
+Open URLs in browser
+
+    Using webbrowser.open(url) to launch web links.
+
+Open folders / directories
+
+    Open a folder in File Explorer (os.startfile(folder_path)).
+
+Open with elevated/admin privileges
+
+    Launch files or apps with runAs (administrator mode).
+
+Open multiple files at once (dedicated GUI support)
+
+    Currently you can type multiple arguments manually, but no dedicated multi-file selection or GUI batch support.
+
+Silent / background launch with app-specific flags
+
+    GUI support for “silent” mode or background execution depending on the app.
+
+---
+
+### 3️⃣ Open web content
+
+* Open URL in default browser
+* Open URL in chosen browser
+* Open local HTML files
+* Open web apps (localhost)
+
+---
+
+### 4️⃣ Open multiple apps programmatically
+
+* Open sequentially
+* Open in parallel
+* Open with delay
+* Open based on config file
+
+---
+
+### 5️⃣ Conditional opening
+
+* Open if app not running
+* Restart app if running
+* Open based on system state
+* Open based on file existence
+
+---
+
+## 🔴 CLOSE APPS (User-Controlled)
+
+### 6️⃣ Graceful close
+
+* Send close signal
+* Ask app to exit
+* Close foreground app
+* Close window by title
+
+---
+
+### 7️⃣ Force close
+
+* Kill process by name
+* Kill process by PID
+* Kill multiple instances
+* Kill process tree
+
+---
+
+### 8️⃣ Timed & conditional close
+
+* Close after delay
+* Close after task completes
+* Close if idle
+* Close if resource limit exceeded
+
+---
+
+## 🟡 PROCESS CONTROL (Still user-level)
+
+### 9️⃣ Detect running apps
+
+* Check if running
+* Count instances
+* Detect foreground app
+
+---
+
+### 🔟 Monitor app behavior
+
+* Monitor CPU usage
+* Monitor memory usage
+* Detect freeze / hang
+* Detect crash
+
+---
+
+### 1️⃣1️⃣ Control execution
+
+* Pause (suspend) app
+* Resume app
+* Change priority
+* Limit CPU cores
+
+---
+
+## 🔵 INTERACTION (Optional Automation)
+
+### 1️⃣2️⃣ App interaction
+
+* Send keystrokes
+* Mouse clicks
+* Fill forms
+* Navigate UI
+
+---
+
+### 1️⃣3️⃣ App coordination
+
+* Wait until app opens
+* Wait until window appears
+* Sync between apps
+
+---
+
+## 🔢 TOTAL OPERATIONS (User-Level Only)
+
+| Area              | Operations  |
+| ----------------- | ----------- |
+| Open apps         | ~18         |
+| Close apps        | ~14         |
+| Control & monitor | ~16         |
+| Interaction       | ~10         |
+| **Total**         | **≈ 55–60** |
+
+---
+
+## 🧩 Python tools you’d actually use
+
+* `subprocess` → open apps
+* `psutil` → close/control/monitor apps
+* `os` → paths & environment
+* `time` / `sched`
+* `pyautogui` → UI interaction
+* `pygetwindow` / `pywin32` → window control (Windows)

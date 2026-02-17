@@ -1,0 +1,9 @@
+pyttsx3
+PyQt6
+PySide6
+speechRecognition
+pyaudio
+pipwin
+numpy
+pyautogui
+sounddevice

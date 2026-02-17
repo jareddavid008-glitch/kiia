@@ -1,0 +1,997 @@
+[
+  {
+    "timestamp": "2026-02-16T19:11:54.144215",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-16T19:12:06.219944",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-16T19:12:06.405067",
+    "sender": "KIIA",
+    "message": "\nInstalled packages:"
+  },
+  {
+    "timestamp": "2026-02-16T19:12:06.506520",
+    "sender": "KIIA",
+    "message": "  pyttsx3: 2.91"
+  },
+  {
+    "timestamp": "2026-02-16T19:12:06.689255",
+    "sender": "KIIA",
+    "message": "  PyQt6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-16T19:12:06.876169",
+    "sender": "KIIA",
+    "message": "  PySide6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-16T19:12:06.900154",
+    "sender": "KIIA",
+    "message": "  speechRecognition: 3.14.4"
+  },
+  {
+    "timestamp": "2026-02-16T19:12:06.923140",
+    "sender": "KIIA",
+    "message": "  pyaudio: 0.2.14"
+  },
+  {
+    "timestamp": "2026-02-16T19:12:06.947124",
+    "sender": "KIIA",
+    "message": "  pipwin: 0.5.2"
+  },
+  {
+    "timestamp": "2026-02-16T19:12:06.985156",
+    "sender": "KIIA",
+    "message": "  numpy: 2.4.0"
+  },
+  {
+    "timestamp": "2026-02-16T19:12:07.188663",
+    "sender": "KIIA",
+    "message": "  pyautogui: 0.9.54"
+  },
+  {
+    "timestamp": "2026-02-16T19:12:07.578510",
+    "sender": "KIIA",
+    "message": "  sounddevice: 0.5.5"
+  },
+  {
+    "timestamp": "2026-02-16T19:12:09.423951",
+    "sender": "KIIA",
+    "message": "Mind sir, before we start I am checking the mic."
+  },
+  {
+    "timestamp": "2026-02-16T19:12:20.058930",
+    "sender": "KIIA",
+    "message": "No worries we'll be continuing"
+  },
+  {
+    "timestamp": "2026-02-16T19:12:25.138791",
+    "sender": "KIIA",
+    "message": "Login Successful"
+  },
+  {
+    "timestamp": "2026-02-16T19:12:29.003926",
+    "sender": "KIIA",
+    "message": "KIIA ONLINE"
+  },
+  {
+    "timestamp": "2026-02-16T19:12:29.120852",
+    "sender": "KIIA",
+    "message": "Good Evening Sir!"
+  },
+  {
+    "timestamp": "2026-02-16T19:12:33.130535",
+    "sender": "KIIA",
+    "message": "What Can I Do For You"
+  },
+  {
+    "timestamp": "2026-02-16T19:24:08.522006",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-16T19:24:16.743360",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-16T19:24:16.844320",
+    "sender": "KIIA",
+    "message": "\nInstalled packages:"
+  },
+  {
+    "timestamp": "2026-02-16T19:24:16.879584",
+    "sender": "KIIA",
+    "message": "  pyttsx3: 2.91"
+  },
+  {
+    "timestamp": "2026-02-16T19:24:17.018499",
+    "sender": "KIIA",
+    "message": "  PyQt6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-16T19:24:17.145938",
+    "sender": "KIIA",
+    "message": "  PySide6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-16T19:24:17.261711",
+    "sender": "KIIA",
+    "message": "  speechRecognition: 3.14.4"
+  },
+  {
+    "timestamp": "2026-02-16T19:24:17.307684",
+    "sender": "KIIA",
+    "message": "  pyaudio: 0.2.14"
+  },
+  {
+    "timestamp": "2026-02-16T19:24:17.361649",
+    "sender": "KIIA",
+    "message": "  pipwin: 0.5.2"
+  },
+  {
+    "timestamp": "2026-02-16T19:24:17.402622",
+    "sender": "KIIA",
+    "message": "  numpy: 2.4.0"
+  },
+  {
+    "timestamp": "2026-02-16T19:24:17.446595",
+    "sender": "KIIA",
+    "message": "  pyautogui: 0.9.54"
+  },
+  {
+    "timestamp": "2026-02-16T19:24:17.484085",
+    "sender": "KIIA",
+    "message": "  sounddevice: 0.5.5"
+  },
+  {
+    "timestamp": "2026-02-16T19:24:18.456793",
+    "sender": "KIIA",
+    "message": "Mind sir, before we start I am checking the mic."
+  },
+  {
+    "timestamp": "2026-02-16T19:24:29.738105",
+    "sender": "KIIA",
+    "message": "No worries we'll be continuing"
+  },
+  {
+    "timestamp": "2026-02-16T19:24:35.296197",
+    "sender": "KIIA",
+    "message": "Login Successful"
+  },
+  {
+    "timestamp": "2026-02-16T19:24:40.408316",
+    "sender": "KIIA",
+    "message": "KIIA ONLINE"
+  },
+  {
+    "timestamp": "2026-02-16T19:24:40.554223",
+    "sender": "KIIA",
+    "message": "Good Evening Sir!"
+  },
+  {
+    "timestamp": "2026-02-16T19:24:44.155819",
+    "sender": "KIIA",
+    "message": "What Can I Do For You"
+  },
+  {
+    "timestamp": "2026-02-16T19:25:27.731045",
+    "sender": "USER",
+    "message": ": C:\\Windows\\notepad.exe"
+  },
+  {
+    "timestamp": "2026-02-16T19:25:32.447928",
+    "sender": "KIIA",
+    "message": "Application opened with files"
+  },
+  {
+    "timestamp": "2026-02-16T19:43:16.648905",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-16T19:43:24.019805",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-16T19:43:24.169421",
+    "sender": "KIIA",
+    "message": "\nInstalled packages:"
+  },
+  {
+    "timestamp": "2026-02-16T19:43:24.208830",
+    "sender": "KIIA",
+    "message": "  pyttsx3: 2.91"
+  },
+  {
+    "timestamp": "2026-02-16T19:43:24.251453",
+    "sender": "KIIA",
+    "message": "  PyQt6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-16T19:43:24.289287",
+    "sender": "KIIA",
+    "message": "  PySide6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-16T19:43:24.342657",
+    "sender": "KIIA",
+    "message": "  speechRecognition: 3.14.4"
+  },
+  {
+    "timestamp": "2026-02-16T19:43:24.394665",
+    "sender": "KIIA",
+    "message": "  pyaudio: 0.2.14"
+  },
+  {
+    "timestamp": "2026-02-16T19:43:24.442744",
+    "sender": "KIIA",
+    "message": "  pipwin: 0.5.2"
+  },
+  {
+    "timestamp": "2026-02-16T19:43:24.497489",
+    "sender": "KIIA",
+    "message": "  numpy: 2.4.0"
+  },
+  {
+    "timestamp": "2026-02-16T19:43:24.547620",
+    "sender": "KIIA",
+    "message": "  pyautogui: 0.9.54"
+  },
+  {
+    "timestamp": "2026-02-16T19:43:24.592889",
+    "sender": "KIIA",
+    "message": "  sounddevice: 0.5.5"
+  },
+  {
+    "timestamp": "2026-02-16T19:43:25.380067",
+    "sender": "KIIA",
+    "message": "Mind sir, before we start I am checking the mic."
+  },
+  {
+    "timestamp": "2026-02-16T19:43:48.179184",
+    "sender": "KIIA",
+    "message": "No worries we'll be continuing"
+  },
+  {
+    "timestamp": "2026-02-16T19:43:53.212015",
+    "sender": "KIIA",
+    "message": "Login Successful"
+  },
+  {
+    "timestamp": "2026-02-16T19:43:56.932931",
+    "sender": "KIIA",
+    "message": "KIIA ONLINE"
+  },
+  {
+    "timestamp": "2026-02-16T19:43:56.988896",
+    "sender": "KIIA",
+    "message": "Good Evening Sir!"
+  },
+  {
+    "timestamp": "2026-02-16T19:44:00.519272",
+    "sender": "KIIA",
+    "message": "What Can I Do For You"
+  },
+  {
+    "timestamp": "2026-02-16T21:54:29.651297",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-16T21:54:37.823637",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-16T21:54:38.082591",
+    "sender": "KIIA",
+    "message": "\nInstalled packages:"
+  },
+  {
+    "timestamp": "2026-02-16T21:54:38.110602",
+    "sender": "KIIA",
+    "message": "  pyttsx3: 2.91"
+  },
+  {
+    "timestamp": "2026-02-16T21:54:38.137617",
+    "sender": "KIIA",
+    "message": "  PyQt6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-16T21:54:38.169629",
+    "sender": "KIIA",
+    "message": "  PySide6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-16T21:54:38.210638",
+    "sender": "KIIA",
+    "message": "  speechRecognition: 3.14.4"
+  },
+  {
+    "timestamp": "2026-02-16T21:54:38.239650",
+    "sender": "KIIA",
+    "message": "  pyaudio: 0.2.14"
+  },
+  {
+    "timestamp": "2026-02-16T21:54:38.287171",
+    "sender": "KIIA",
+    "message": "  pipwin: 0.5.2"
+  },
+  {
+    "timestamp": "2026-02-16T21:54:38.325669",
+    "sender": "KIIA",
+    "message": "  numpy: 2.4.0"
+  },
+  {
+    "timestamp": "2026-02-16T21:54:38.360685",
+    "sender": "KIIA",
+    "message": "  pyautogui: 0.9.54"
+  },
+  {
+    "timestamp": "2026-02-16T21:54:38.388704",
+    "sender": "KIIA",
+    "message": "  sounddevice: 0.5.5"
+  },
+  {
+    "timestamp": "2026-02-16T21:54:39.568823",
+    "sender": "KIIA",
+    "message": "Mind sir, before we start I am checking the mic."
+  },
+  {
+    "timestamp": "2026-02-16T21:54:56.827567",
+    "sender": "KIIA",
+    "message": "No worries we'll be continuing"
+  },
+  {
+    "timestamp": "2026-02-16T21:55:04.527250",
+    "sender": "KIIA",
+    "message": "Login Successful"
+  },
+  {
+    "timestamp": "2026-02-16T21:55:09.729764",
+    "sender": "KIIA",
+    "message": "KIIA ONLINE - System ready"
+  },
+  {
+    "timestamp": "2026-02-16T21:55:10.620530",
+    "sender": "KIIA",
+    "message": "Good Evening Sir!"
+  },
+  {
+    "timestamp": "2026-02-16T21:55:15.219123",
+    "sender": "KIIA",
+    "message": "What Can I Do For You"
+  },
+  {
+    "timestamp": "2026-02-16T21:56:08.916922",
+    "sender": "USER",
+    "message": ": C:\\Windows"
+  },
+  {
+    "timestamp": "2026-02-16T21:56:24.853297",
+    "sender": "USER",
+    "message": ": C:\\Windows\\notepad.exe"
+  },
+  {
+    "timestamp": "2026-02-16T21:56:25.003609",
+    "sender": "KIIA",
+    "message": "Application opened with files"
+  },
+  {
+    "timestamp": "2026-02-17T15:04:12.632676",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-17T15:04:12.665784",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-17T15:04:12.743063",
+    "sender": "KIIA",
+    "message": "\nInstalled packages:"
+  },
+  {
+    "timestamp": "2026-02-17T15:04:12.834646",
+    "sender": "KIIA",
+    "message": "  pyttsx3: 2.91"
+  },
+  {
+    "timestamp": "2026-02-17T15:04:12.994036",
+    "sender": "KIIA",
+    "message": "  PyQt6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-17T15:04:13.118777",
+    "sender": "KIIA",
+    "message": "  PySide6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-17T15:04:13.230854",
+    "sender": "KIIA",
+    "message": "  speechRecognition: 3.14.4"
+  },
+  {
+    "timestamp": "2026-02-17T15:04:13.364510",
+    "sender": "KIIA",
+    "message": "  pyaudio: 0.2.14"
+  },
+  {
+    "timestamp": "2026-02-17T15:04:14.141469",
+    "sender": "KIIA",
+    "message": "  pipwin: 0.5.2"
+  },
+  {
+    "timestamp": "2026-02-17T15:04:14.254736",
+    "sender": "KIIA",
+    "message": "  numpy: 2.4.0"
+  },
+  {
+    "timestamp": "2026-02-17T15:04:14.357765",
+    "sender": "KIIA",
+    "message": "  pyautogui: 0.9.54"
+  },
+  {
+    "timestamp": "2026-02-17T15:04:14.465377",
+    "sender": "KIIA",
+    "message": "  sounddevice: 0.5.5"
+  },
+  {
+    "timestamp": "2026-02-17T15:04:16.876674",
+    "sender": "KIIA",
+    "message": "Mind sir, before we start I am checking the mic."
+  },
+  {
+    "timestamp": "2026-02-17T15:04:22.097123",
+    "sender": "KIIA",
+    "message": "No worries we'll be continuing"
+  },
+  {
+    "timestamp": "2026-02-17T15:04:24.226490",
+    "sender": "KIIA",
+    "message": "Login Successful"
+  },
+  {
+    "timestamp": "2026-02-17T15:04:27.817377",
+    "sender": "KIIA",
+    "message": "KIIA ONLINE - System ready"
+  },
+  {
+    "timestamp": "2026-02-17T15:04:31.114954",
+    "sender": "KIIA",
+    "message": "Good Afternoon Sir!"
+  },
+  {
+    "timestamp": "2026-02-17T15:04:33.153252",
+    "sender": "KIIA",
+    "message": "What Can I Do For You"
+  },
+  {
+    "timestamp": "2026-02-17T15:05:04.952196",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-17T15:05:04.968398",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-17T15:05:04.992325",
+    "sender": "KIIA",
+    "message": "\nInstalled packages:"
+  },
+  {
+    "timestamp": "2026-02-17T15:05:05.038632",
+    "sender": "KIIA",
+    "message": "  pyttsx3: 2.91"
+  },
+  {
+    "timestamp": "2026-02-17T15:05:05.074426",
+    "sender": "KIIA",
+    "message": "  PyQt6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-17T15:05:05.157277",
+    "sender": "KIIA",
+    "message": "  PySide6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-17T15:05:05.220025",
+    "sender": "KIIA",
+    "message": "  speechRecognition: 3.14.4"
+  },
+  {
+    "timestamp": "2026-02-17T15:05:05.259459",
+    "sender": "KIIA",
+    "message": "  pyaudio: 0.2.14"
+  },
+  {
+    "timestamp": "2026-02-17T15:05:05.300096",
+    "sender": "KIIA",
+    "message": "  pipwin: 0.5.2"
+  },
+  {
+    "timestamp": "2026-02-17T15:05:05.348049",
+    "sender": "KIIA",
+    "message": "  numpy: 2.4.0"
+  },
+  {
+    "timestamp": "2026-02-17T15:05:05.737253",
+    "sender": "KIIA",
+    "message": "  pyautogui: 0.9.54"
+  },
+  {
+    "timestamp": "2026-02-17T15:05:05.893577",
+    "sender": "KIIA",
+    "message": "  sounddevice: 0.5.5"
+  },
+  {
+    "timestamp": "2026-02-17T15:05:06.438013",
+    "sender": "KIIA",
+    "message": "Mind sir, before we start I am checking the mic."
+  },
+  {
+    "timestamp": "2026-02-17T15:05:12.012368",
+    "sender": "KIIA",
+    "message": "No worries we'll be continuing"
+  },
+  {
+    "timestamp": "2026-02-17T15:05:12.755904",
+    "sender": "KIIA",
+    "message": "Login Successful"
+  },
+  {
+    "timestamp": "2026-02-17T15:05:15.400065",
+    "sender": "KIIA",
+    "message": "KIIA ONLINE - System ready"
+  },
+  {
+    "timestamp": "2026-02-17T15:05:15.884680",
+    "sender": "KIIA",
+    "message": "Good Afternoon Sir!"
+  },
+  {
+    "timestamp": "2026-02-17T15:05:17.917018",
+    "sender": "KIIA",
+    "message": "What Can I Do For You"
+  },
+  {
+    "timestamp": "2026-02-17T15:11:37.610446",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-17T15:12:26.917539",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-17T15:13:27.306383",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-17T15:13:27.366262",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-17T15:13:27.386336",
+    "sender": "KIIA",
+    "message": "\nInstalled packages:"
+  },
+  {
+    "timestamp": "2026-02-17T15:13:27.454294",
+    "sender": "KIIA",
+    "message": "  pyttsx3: 2.91"
+  },
+  {
+    "timestamp": "2026-02-17T15:13:27.940605",
+    "sender": "KIIA",
+    "message": "  PyQt6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-17T15:13:28.141261",
+    "sender": "KIIA",
+    "message": "  PySide6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-17T15:13:28.301753",
+    "sender": "KIIA",
+    "message": "  speechRecognition: 3.14.4"
+  },
+  {
+    "timestamp": "2026-02-17T15:13:28.321431",
+    "sender": "KIIA",
+    "message": "  pyaudio: 0.2.14"
+  },
+  {
+    "timestamp": "2026-02-17T15:13:28.346647",
+    "sender": "KIIA",
+    "message": "  pipwin: 0.5.2"
+  },
+  {
+    "timestamp": "2026-02-17T15:13:28.367343",
+    "sender": "KIIA",
+    "message": "  numpy: 2.4.0"
+  },
+  {
+    "timestamp": "2026-02-17T15:13:28.397586",
+    "sender": "KIIA",
+    "message": "  pyautogui: 0.9.54"
+  },
+  {
+    "timestamp": "2026-02-17T15:13:28.421841",
+    "sender": "KIIA",
+    "message": "  sounddevice: 0.5.5"
+  },
+  {
+    "timestamp": "2026-02-17T15:13:29.361625",
+    "sender": "KIIA",
+    "message": "Mind sir, before we start I am checking the mic."
+  },
+  {
+    "timestamp": "2026-02-17T15:13:34.221347",
+    "sender": "KIIA",
+    "message": "No worries we'll be continuing"
+  },
+  {
+    "timestamp": "2026-02-17T15:13:37.016816",
+    "sender": "KIIA",
+    "message": "Login Successful"
+  },
+  {
+    "timestamp": "2026-02-17T15:13:39.639511",
+    "sender": "KIIA",
+    "message": "KIIA ONLINE - System ready"
+  },
+  {
+    "timestamp": "2026-02-17T15:13:40.983948",
+    "sender": "KIIA",
+    "message": "Good Afternoon Sir!"
+  },
+  {
+    "timestamp": "2026-02-17T15:13:43.026489",
+    "sender": "KIIA",
+    "message": "What Can I Do For You"
+  },
+  {
+    "timestamp": "2026-02-17T15:16:15.970351",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-17T15:16:15.990425",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-17T15:16:16.135094",
+    "sender": "KIIA",
+    "message": "\nInstalled packages:"
+  },
+  {
+    "timestamp": "2026-02-17T15:16:16.300004",
+    "sender": "KIIA",
+    "message": "  pyttsx3: 2.91"
+  },
+  {
+    "timestamp": "2026-02-17T15:16:16.429489",
+    "sender": "KIIA",
+    "message": "  PyQt6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-17T15:16:16.554874",
+    "sender": "KIIA",
+    "message": "  PySide6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-17T15:16:16.704259",
+    "sender": "KIIA",
+    "message": "  speechRecognition: 3.14.4"
+  },
+  {
+    "timestamp": "2026-02-17T15:16:16.830512",
+    "sender": "KIIA",
+    "message": "  pyaudio: 0.2.14"
+  },
+  {
+    "timestamp": "2026-02-17T15:16:16.935920",
+    "sender": "KIIA",
+    "message": "  pipwin: 0.5.2"
+  },
+  {
+    "timestamp": "2026-02-17T15:16:17.055947",
+    "sender": "KIIA",
+    "message": "  numpy: 2.4.0"
+  },
+  {
+    "timestamp": "2026-02-17T15:16:17.144830",
+    "sender": "KIIA",
+    "message": "  pyautogui: 0.9.54"
+  },
+  {
+    "timestamp": "2026-02-17T15:16:17.355103",
+    "sender": "KIIA",
+    "message": "  sounddevice: 0.5.5"
+  },
+  {
+    "timestamp": "2026-02-17T15:16:18.235181",
+    "sender": "KIIA",
+    "message": "Mind sir, before we start I am checking the mic."
+  },
+  {
+    "timestamp": "2026-02-17T15:16:31.284948",
+    "sender": "KIIA",
+    "message": "No worries we'll be continuing"
+  },
+  {
+    "timestamp": "2026-02-17T15:16:31.519826",
+    "sender": "KIIA",
+    "message": "Login Successful"
+  },
+  {
+    "timestamp": "2026-02-17T15:16:34.022916",
+    "sender": "KIIA",
+    "message": "KIIA ONLINE - System ready"
+  },
+  {
+    "timestamp": "2026-02-17T15:16:35.732138",
+    "sender": "KIIA",
+    "message": "Good Afternoon Sir!"
+  },
+  {
+    "timestamp": "2026-02-17T15:16:37.780423",
+    "sender": "KIIA",
+    "message": "What Can I Do For You"
+  },
+  {
+    "timestamp": "2026-02-17T15:17:26.238948",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-17T15:17:26.398931",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-17T15:17:26.429439",
+    "sender": "KIIA",
+    "message": "\nInstalled packages:"
+  },
+  {
+    "timestamp": "2026-02-17T15:17:26.463438",
+    "sender": "KIIA",
+    "message": "  pyttsx3: 2.91"
+  },
+  {
+    "timestamp": "2026-02-17T15:17:26.496417",
+    "sender": "KIIA",
+    "message": "  PyQt6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-17T15:17:26.544983",
+    "sender": "KIIA",
+    "message": "  PySide6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-17T15:17:26.614780",
+    "sender": "KIIA",
+    "message": "  speechRecognition: 3.14.4"
+  },
+  {
+    "timestamp": "2026-02-17T15:17:26.644956",
+    "sender": "KIIA",
+    "message": "  pyaudio: 0.2.14"
+  },
+  {
+    "timestamp": "2026-02-17T15:17:26.727513",
+    "sender": "KIIA",
+    "message": "  pipwin: 0.5.2"
+  },
+  {
+    "timestamp": "2026-02-17T15:17:26.775920",
+    "sender": "KIIA",
+    "message": "  numpy: 2.4.0"
+  },
+  {
+    "timestamp": "2026-02-17T15:17:26.833333",
+    "sender": "KIIA",
+    "message": "  pyautogui: 0.9.54"
+  },
+  {
+    "timestamp": "2026-02-17T15:17:26.884021",
+    "sender": "KIIA",
+    "message": "  sounddevice: 0.5.5"
+  },
+  {
+    "timestamp": "2026-02-17T15:17:27.966155",
+    "sender": "KIIA",
+    "message": "Mind sir, before we start I am checking the mic."
+  },
+  {
+    "timestamp": "2026-02-17T15:17:33.547367",
+    "sender": "KIIA",
+    "message": "No worries we'll be continuing"
+  },
+  {
+    "timestamp": "2026-02-17T15:17:34.781295",
+    "sender": "KIIA",
+    "message": "Login Successful"
+  },
+  {
+    "timestamp": "2026-02-17T15:17:37.731268",
+    "sender": "KIIA",
+    "message": "KIIA ONLINE - System ready"
+  },
+  {
+    "timestamp": "2026-02-17T15:17:38.832365",
+    "sender": "KIIA",
+    "message": "Good Afternoon Sir!"
+  },
+  {
+    "timestamp": "2026-02-17T15:17:40.899510",
+    "sender": "KIIA",
+    "message": "What Can I Do For You"
+  },
+  {
+    "timestamp": "2026-02-17T15:18:01.437714",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-17T15:18:01.517439",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-17T15:18:01.572571",
+    "sender": "KIIA",
+    "message": "\nInstalled packages:"
+  },
+  {
+    "timestamp": "2026-02-17T15:18:01.688618",
+    "sender": "KIIA",
+    "message": "  pyttsx3: 2.91"
+  },
+  {
+    "timestamp": "2026-02-17T15:18:01.792506",
+    "sender": "KIIA",
+    "message": "  PyQt6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-17T15:18:01.843518",
+    "sender": "KIIA",
+    "message": "  PySide6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-17T15:18:01.920669",
+    "sender": "KIIA",
+    "message": "  speechRecognition: 3.14.4"
+  },
+  {
+    "timestamp": "2026-02-17T15:18:02.045830",
+    "sender": "KIIA",
+    "message": "  pyaudio: 0.2.14"
+  },
+  {
+    "timestamp": "2026-02-17T15:18:02.394195",
+    "sender": "KIIA",
+    "message": "  pipwin: 0.5.2"
+  },
+  {
+    "timestamp": "2026-02-17T15:18:02.879567",
+    "sender": "KIIA",
+    "message": "  numpy: 2.4.0"
+  },
+  {
+    "timestamp": "2026-02-17T15:18:02.961602",
+    "sender": "KIIA",
+    "message": "  pyautogui: 0.9.54"
+  },
+  {
+    "timestamp": "2026-02-17T15:18:03.045246",
+    "sender": "KIIA",
+    "message": "  sounddevice: 0.5.5"
+  },
+  {
+    "timestamp": "2026-02-17T15:22:04.406096",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-17T15:22:05.695679",
+    "sender": "KIIA",
+    "message": "All packages are installed."
+  },
+  {
+    "timestamp": "2026-02-17T15:22:05.732596",
+    "sender": "KIIA",
+    "message": "\nInstalled packages:"
+  },
+  {
+    "timestamp": "2026-02-17T15:22:05.764763",
+    "sender": "KIIA",
+    "message": "  pyttsx3: 2.91"
+  },
+  {
+    "timestamp": "2026-02-17T15:22:05.794268",
+    "sender": "KIIA",
+    "message": "  PyQt6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-17T15:22:05.851952",
+    "sender": "KIIA",
+    "message": "  PySide6: 6.10.1"
+  },
+  {
+    "timestamp": "2026-02-17T15:22:06.271734",
+    "sender": "KIIA",
+    "message": "  speechRecognition: 3.14.4"
+  },
+  {
+    "timestamp": "2026-02-17T15:22:06.573277",
+    "sender": "KIIA",
+    "message": "  pyaudio: 0.2.14"
+  },
+  {
+    "timestamp": "2026-02-17T15:22:06.733099",
+    "sender": "KIIA",
+    "message": "  pipwin: 0.5.2"
+  },
+  {
+    "timestamp": "2026-02-17T15:22:06.804757",
+    "sender": "KIIA",
+    "message": "  numpy: 2.4.0"
+  },
+  {
+    "timestamp": "2026-02-17T15:22:06.878444",
+    "sender": "KIIA",
+    "message": "  pyautogui: 0.9.54"
+  },
+  {
+    "timestamp": "2026-02-17T15:22:06.936578",
+    "sender": "KIIA",
+    "message": "  sounddevice: 0.5.5"
+  },
+  {
+    "timestamp": "2026-02-17T15:22:08.161002",
+    "sender": "KIIA",
+    "message": "Mind sir, before we start I am checking the mic."
+  },
+  {
+    "timestamp": "2026-02-17T15:22:16.128720",
+    "sender": "KIIA",
+    "message": "No worries we'll be continuing"
+  },
+  {
+    "timestamp": "2026-02-17T15:22:18.310922",
+    "sender": "KIIA",
+    "message": "Login Successful"
+  },
+  {
+    "timestamp": "2026-02-17T15:22:19.774363",
+    "sender": "KIIA",
+    "message": "KIIA ONLINE - System ready"
+  },
+  {
+    "timestamp": "2026-02-17T15:22:20.915500",
+    "sender": "KIIA",
+    "message": "Good Afternoon Sir!"
+  },
+  {
+    "timestamp": "2026-02-17T15:22:22.066327",
+    "sender": "KIIA",
+    "message": "What Can I Do For You"
+  }
+]

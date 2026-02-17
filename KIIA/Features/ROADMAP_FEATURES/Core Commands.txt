@@ -1,0 +1,660 @@
+🧠 1. CORE CMD COMMANDS (built into cmd.exe)
+
+These require shell=True:
+
+subprocess.check_output("dir", shell=True, text=True)
+
+File & directory
+(1)dir
+cd
+cls
+(2)copy
+(3)move
+del
+erase
+(4)mkdir
+(5)rmdir
+(6)rename
+(7)type
+attrib
+(8)tree
+
+Disk & system
+(1)vol
+label
+(2)chkdsk
+fsutil
+
+Environment & control
+set
+setx
+path
+prompt
+exit
+call
+
+🧠 2. SYSTEM INFORMATION COMMANDS
+
+These do not need shell=True:
+
+subprocess.check_output(["systeminfo"], text=True)
+
+(1)systeminfo
+(2)hostname
+(3)whoami
+ver
+perfmon
+taskkill
+driverquery
+powercfg{
+  /LIST, /L          Lists all power schemes.
+  /QUERY, /Q         Displays the contents of a power scheme.
+  /SETACTIVE, /S     Makes a power scheme active on the system.
+  /GETACTIVESCHEME   Retrieves the currently active power scheme.
+
+  /ALIASES           Displays all aliases and their corresponding GUIDs.
+  /HIBERNATE, /H     Enables and disables the hibernate feature.
+
+  /AVAILABLESLEEPSTATES, /A
+                     Reports the sleep states available on the system.
+
+  /DEVICEQUERY       Returns a list of devices that meet specified criteria.
+  /DEVICEENABLEWAKE  Enables a device to wake the system from a sleep state.
+
+  /DEVICEDISABLEWAKE Disables a device from waking the system from a sleep
+                     state.
+
+  /LASTWAKE          Reports information about what woke the system from the
+                     last sleep transition.
+
+  /WAKETIMERS        Enumerates active wake timers.
+  /REQUESTS          Enumerates application and driver Power Requests.
+
+  /REQUESTSOVERRIDE  Sets a Power Request override for a particular Process,
+                     Service, or Driver.
+
+  /ENERGY            Analyzes the system for common energy-efficiency and
+                     battery life problems.
+
+  /BATTERYREPORT     Generates a report of battery usage.
+  /SLEEPSTUDY        Generates a diagnostic system power transition report.
+
+  /SYSTEMSLEEPDIAGNOSTICS
+                     Generates a diagnostic report of system sleep transitions.
+  /SYSTEMPOWERREPORT Generates a diagnostic system power transition report.
+  /POWERTHROTTLING   Control power throttling for an application.
+
+  can you convert all the commands to python code which I have been using in the previus conversation
+}
+wmic
+
+🧠 3. PROCESS & SERVICE MANAGEMENT
+(1)sc
+(2)services.msc   (GUI)
+shutdown
+logoff
+(3)schtasks
+
+
+Examples:
+
+taskkill /IM notepad.exe /F
+sc query
+shutdown /s /t 0
+
+🧠 4. NETWORK COMMANDS
+(1)ipconfig
+(2)ping
+(3)tracert
+(4)netstat
+(5)arp
+(6)route
+(7)nslookup
+(8)nbtstat
+(9)pathping
+
+
+Example:
+
+subprocess.check_output(["ping", "google.com"], text=True)
+
+🧠 5. USER & SECURITY COMMANDS
+(1)net user
+(2)net localgroup
+(3)net accounts
+(4)runas
+(5)gpupdate
+
+
+Admin required for some.
+
+🧠 6. DISK & STORAGE COMMANDS
+(1)mountvol
+(2)defrag
+
+
+🧠 7. WINDOWS MANAGEMENT (ADVANCED)
+(1)bcdedit
+(2)wevtutil
+(3)auditpol
+(4)cipher
+(5)perfmon
+(6)resmon
+
+🧠 8. POWER & HARDWARE
+(1)devmgmt.msc
+(2)pnputil
+(3)dxdiag
+(4)msinfo32
+
+🧠 9. GUI TOOLS YOU CAN LAUNCH
+
+These open Windows UI tools:
+
+(1)control
+(2)control printers
+(3)control firewall.cpl
+(4)eventvwr
+(5)taskmgr
+(6)regedit
+
+
+Example:
+
+subprocess.Popen("taskmgr", shell=True)
+
+🧠 10. WINDOWS UPDATE & REPAIR
+(1)sfc /scannow
+(2)dism /online /cleanup-image /restorehealth
+(3)wuauclt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dir
+
+Lists files and folders in a directory.
+
+Read-only
+
+Safe
+
+dir C:\Windows
+
+cd
+
+Changes the current working directory.
+
+Affects subsequent commands
+
+cd C:\Users
+
+cls
+
+Clears the command prompt screen.
+
+Cosmetic only
+
+copy
+
+Copies files from one location to another.
+
+copy a.txt b.txt
+
+move
+
+Moves or renames files.
+
+Destructive if overwriting
+
+del / erase
+
+Deletes files permanently.
+
+Dangerous
+
+del file.txt
+
+mkdir
+
+Creates directories.
+
+mkdir test
+
+rmdir
+
+Deletes directories.
+
+Dangerous with /s /q
+
+rename
+
+Renames files or folders.
+
+type
+
+Displays contents of a text file.
+
+Read-only
+
+attrib
+
+Changes file attributes (hidden, read-only, system).
+
+Can hide malware or system files
+
+tree
+
+Displays directory structure as a tree.
+
+💽 Disk & System
+vol
+
+Displays disk volume label and serial number.
+
+Read-only
+
+label
+
+Sets or changes disk volume label.
+
+Admin recommended
+
+chkdsk
+
+Checks disk for errors.
+
+/f modifies disk → admin required
+
+format
+
+Formats a disk.
+
+Extremely destructive
+
+Blocked in automation
+
+fsutil
+
+Advanced filesystem control.
+
+Can corrupt filesystem
+
+Admin only
+
+diskpart
+
+Low-level disk partitioning tool.
+
+Extremely dangerous
+
+Interactive
+
+Blocked in automation
+
+⚙️ Environment & Control
+set
+
+Sets environment variables (temporary).
+
+setx
+
+Sets persistent environment variables.
+
+Affects future sessions
+
+path
+
+Modifies executable search path.
+
+Can break programs
+
+prompt
+
+Changes CMD prompt appearance.
+
+exit
+
+Closes the shell.
+
+call
+
+Calls another batch file.
+
+🧠 2. SYSTEM INFORMATION COMMANDS
+
+External executables — no shell=True needed
+
+systeminfo
+
+Displays detailed system info (OS, RAM, patches).
+
+Read-only
+
+hostname
+
+Shows computer name.
+
+whoami
+
+Shows current user identity.
+
+ver
+
+Shows Windows version.
+
+perfmon
+
+Lists running processes.
+
+taskkill
+
+Terminates processes.
+
+Dangerous with /F
+
+driverquery
+
+Lists installed drivers.
+
+powercfg
+
+Manages power settings.
+
+Admin required for changes
+
+wmic
+
+Queries Windows Management Instrumentation.
+
+Deprecated but powerful
+
+🧠 3. PROCESS & SERVICE MANAGEMENT
+sc
+
+Manages Windows services.
+
+Stop/delete services
+
+Admin required
+
+services.msc
+
+Opens Services GUI.
+
+Manual service control
+
+shutdown
+
+Shuts down or restarts system.
+
+Dangerous without confirmation
+
+logoff
+
+Logs out users.
+
+Data loss risk
+
+schtasks
+
+Creates/manages scheduled tasks.
+
+Persistence mechanism
+
+Admin required
+
+🧠 4. NETWORK COMMANDS
+ipconfig
+
+Shows IP configuration.
+
+ping
+
+Tests network connectivity.
+
+tracert
+
+Shows route to a destination.
+
+netstat
+
+Displays network connections and ports.
+
+arp
+
+Shows or modifies ARP cache.
+
+arp -d is dangerous
+
+route
+
+Modifies routing table.
+
+Admin required
+
+nslookup
+
+DNS query tool.
+
+nbtstat
+
+NetBIOS over TCP/IP statistics.
+
+pathping
+
+Advanced ping + traceroute.
+
+🧠 5. USER & SECURITY COMMANDS
+net user
+
+Manages user accounts.
+
+Admin required for changes
+
+net localgroup
+
+Manages group membership.
+
+Admin escalation risk
+
+net accounts
+
+Sets password and lockout policies.
+
+runas
+
+Runs programs as another user.
+
+gpupdate
+
+Forces group policy refresh.
+
+whoami /groups
+
+Lists group memberships.
+
+whoami /priv
+
+Lists enabled privileges.
+
+🧠 6. DISK & STORAGE COMMANDS
+mountvol
+
+Manages volume mount points.
+
+defrag
+
+Defragments disks.
+
+Not recommended on SSDs
+
+vssadmin
+
+Manages shadow copies.
+
+Can delete restore points
+
+🧠 7. WINDOWS MANAGEMENT (ADVANCED)
+bcdedit
+
+Edits boot configuration.
+
+Can brick system
+
+wevtutil
+
+Manages event logs.
+
+Clearing logs hides activity
+
+auditpol
+
+Configures auditing policies.
+
+cipher
+
+Encrypts files or wipes free space.
+
+lodctr
+
+Rebuilds performance counters.
+
+Can break monitoring
+
+perfmon
+
+Performance Monitor GUI.
+
+resmon
+
+Resource Monitor GUI.
+
+🧠 8. POWER & HARDWARE
+devmgmt.msc
+
+Device Manager GUI.
+
+Can disable hardware
+
+pnputil
+
+Manages drivers.
+
+Admin required
+
+dxdiag
+
+DirectX diagnostics.
+
+msinfo32
+
+Detailed system info GUI.
+
+🧠 9. GUI TOOLS YOU CAN LAUNCH
+control
+
+Opens Control Panel.
+
+control printers
+
+Printers panel.
+
+control firewall.cpl
+
+Firewall settings.
+
+Security-sensitive
+
+eventvwr
+
+Event Viewer.
+
+taskmgr
+
+Task Manager.
+
+regedit
+
+Registry Editor.
+
+Extremely dangerous
+
+🧠 10. WINDOWS UPDATE & REPAIR
+sfc /scannow
+
+Scans and repairs system files.
+
+Admin required
+
+dism /online /cleanup-image /restorehealth
+
+Repairs Windows image.
+
+Admin required
+
+wuauclt
+
+Legacy Windows Update client.
+
+Mostly deprecated
+
+✅ FINAL NOTE (IMPORTANT)
+
+When used from Python:
+
+Read-only commands → safe
+
+State-changing commands → admin + confirmation
+
+Low-level / destructive commands → block automation
+
+You’ve built an excellent mental model of Windows command safety.
+
+If you want next, I can:
+
+Tag each command as SAFE / ADMIN / BLOCKED
+
+Build a Python dispatcher that enforces this
+
+Add GUI confirmation dialogs
+
+Detect dangerous flags automatically
+
+Just tell me 👍
